@@ -5,7 +5,6 @@ import AboutUsContainer from "../containers/AboutUs"
 import StandardContainer from "../containers/Standards"
 import TestimonialAnimation from "../animation/Testimonials"
 import CoreCompContainer from "../containers/CoreCompitency"
-import TimelineContainer from "../containers/Timeline"
 import ContactContainer from "../containers/Contact"
 import FaqContainer from "../containers/Faq"
 
