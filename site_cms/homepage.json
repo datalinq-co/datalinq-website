@@ -1,0 +1,23 @@
+{
+  "animatedText": [
+    {
+      "text": "Desktop App"
+    },
+    {
+      "text": "Online Shops"
+    },
+    {
+      "text": "Web Applications"
+    },
+    {
+      "text": "Data Analysis"
+    }
+  ],
+  "subtitle": "for your company",
+  "leftbtn": "Contact",
+  "rightbtn": "About Us",
+  "subtext": "The all-round carefree package for a digital (r)evolution of your company.",
+  "leftbtnLink": "mailto:info@datalinq.co",
+  "rightbtnLink": "#about_us",
+  "image": "/img/d.png"
+}

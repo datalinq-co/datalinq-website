@@ -1,0 +1,21 @@
+{
+  "box": [
+    {
+      "title": "Your investment",
+      "subtitle": "Cost efficiency through an international team and the use of state-of-the-art technologies.",
+      "icon": "CurrencyDollarIcon"
+    },
+    {
+      "title": "Your time",
+      "subtitle": "We work unconventionally but reliably. Our punctuality and personal service impress.",
+      "icon": "ClockIcon"
+    },
+    {
+      "title": "Our Promise",
+      "subtitle": "An unforgettable collaboration. reliable. Our punctuality and personal service im",
+      "icon": "TrendingUpIcon"
+    }
+  ],
+  "subtitle": "Datalinq stands on three pillars. These standards are inviolable for us and we constantly measure the quality of our services against them.",
+  "title": "Why Datalinq?"
+}

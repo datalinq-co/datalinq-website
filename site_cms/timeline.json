@@ -1,0 +1,38 @@
+{
+  "footerCopyright": "© 2022 Datalinq.co . All rights reserved.",
+  "t3ticon": "LightningBoltIcon",
+  "footerbtnText": "Contact",
+  "footersubtitle": "We are interested in how we can help. We will respond within 24 hours, promised.",
+  "t1subtitle": "You tell us about your concerns and we design a solution.",
+  "t1icon": "ChatIcon",
+  "t2subtitle": "Within 7 days we will present you with a non-binding offer.",
+  "t6title": "6. Further support",
+  "t5title": "5. Adaptation & Handover",
+  "t3subtitle": "We translate your ideas into a mockup and discuss potential adaptation or adaptation. Change requests.",
+  "t2icon": "DocumentTextIcon",
+  "subtitle": "This is how our projects are created – from the initial consultation to the result.",
+  "t4title": "4. Implementation",
+  "t4subtitle": "The project will now be implemented according to your ideas.",
+  "title": "Timeline",
+  "t5subtitle": "We provide you with several pre-release versions to solicit feedback. A final handover will then take place.",
+  "t4icon": "CodeIcon",
+  "t3title": "3. Prototyping",
+  "t6subtitle": "If necessary, we are of course still happy to assist you with words and deeds and take care of e.B. hosting or maintenance.",
+  "t5icon": "AdjustmentsIcon",
+  "t2title": "2. Non-binding offer",
+  "t6icon": "TrendingUpIcon",
+  "t1title": "1. Getting to know each other",
+  "footerbtnLink": "mailto:info@instream-media.com",
+  "footertitle": "Ready for an inquiry?",
+  "footerLinks": [
+    {
+      "footerLink": "Career"
+    },
+    {
+      "footerLink": "Privacy policy"
+    },
+    {
+      "footerLink": "Imprint"
+    }
+  ]
+}

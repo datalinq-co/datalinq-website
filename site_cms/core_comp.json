@@ -1,0 +1,66 @@
+{
+  "box": [
+    {
+      "title": "Online shops",
+      "subtitle": "From Shopware systems to tailor-made shops based on Node JS.",
+      "icon": "ShoppingBagIcon",
+      "bullitin": "CheckIcon",
+      "list": [
+        {
+          "text": "Shop system or custom build"
+        },
+        {
+          "text": "ERP connection"
+        },
+        {
+          "text": "PIM connection"
+        },
+        {
+          "text": "Hosting & Administration"
+        }
+      ],
+      "btn": "Read a Case Study",
+      "link": "#"
+    },
+    {
+      "title": "Data Analysis & Migration",
+      "subtitle": "No matter how big the chaos is, we get your data in shape.",
+      "icon": "GlobeAltIcon",
+      "bullitin": "CheckIcon",
+      "list": [
+        {
+          "text": "Database filtering"
+        },
+        {
+          "text": "Analysis & Reporting"
+        },
+        {
+          "text": "Migration of large amounts of data"
+        }
+      ],
+      "btn": "Read a Case Study",
+      "link": "#"
+    },
+    {
+      "title": "Software",
+      "subtitle": "Offline-first applications for desktop computers & mobile devices.",
+      "icon": "DesktopComputerIcon",
+      "bullitin": "CheckIcon",
+      "list": [
+        {
+          "text": "Productivity boost through individual adaptation"
+        },
+        {
+          "text": "Cross-platform"
+        },
+        {
+          "text": "Web & native applications"
+        }
+      ],
+      "btn": "Read a Case Study",
+      "link": "#"
+    }
+  ],
+  "subtitle": "We offer flexible solutions made to measure. The following examples are our most popular services.",
+  "title": "Core competencies"
+}

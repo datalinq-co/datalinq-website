@@ -1,0 +1,23 @@
+{
+  "navopts": [
+    {
+      "link": "about_us",
+      "title": "About Us"
+    },
+    {
+      "link": "standards",
+      "title": "Reviews"
+    },
+    {
+      "link": "timeline",
+      "title": "Timeline"
+    },
+    {
+      "link": "testimonials",
+      "title": "Testimonials"
+    }
+  ],
+  "btnText": "Contact Us",
+  "btnLink": "mailto:info@datalinq.co",
+  "logo": "/img/logo-dark.png"
+}

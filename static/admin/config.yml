@@ -1,0 +1,171 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "site_cms"
+    label: "Site CMS"
+    files:
+      - label: "Navbar"
+        name: navbar
+        file: site_cms/navbar.json
+        fields:
+          - label: "Navbar Options"
+            name: "navopts"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Link to", name: "link", widget: "select", options: ["#homepage", "about_us", "standards", "testimonials", "timeline"] }
+          - { label: "Contact Button", name: "btnText", widget: "string" }
+          - { label: "Link to", name: btnLink, widget: "string" }
+          - { label: "Logo", name: logo, widget: "image" }
+      - label: "Homepage"
+        name: homepage
+        file: site_cms/homepage.json
+        fields:
+          - label: "Animated Text"
+            name: animatedText
+            widget: "list"
+            fields:
+              - { label: "Text", name: text, widget: "string" }
+          - { label: "Subtitle", name: subtitle, widget: "string" }
+          - { label: "Subtext", name: subtext, widget: "string" }
+          - { label: "Left Button", name: leftbtn, widget: "string" }
+          - { label: "Left Button Link", name: leftbtnLink, widget: "string" }
+          - { label: "Right Button", name: rightbtn, widget: "string" }
+          - { label: "Right Button Link", name: rightbtnLink, widget: "string" }
+          - { label: "Image", name: image, widget: "image" }
+      - label: "About Us"
+        name: about_us
+        file: site_cms/about_us.json
+        fields:
+          - { label: "Title", name: title, widget: "string" }
+          - { label: "Subtitle Italics", name: subtitle, widget: "string" }
+          - { label: "Subtext", name: subtext, widget: "string" }
+          - label: "List"
+            name: list
+            widget: "list"
+            fields:
+              - { label: "Text", name: text, widget: "string" }
+          - { label: "Bullitin Icon", name: bullitin, widget: "string"}
+          - { label: "Box Text", name: boxtext, widget: "string" }
+          - { label: "Footer Box Text", name: footerText, widget: "string" }
+          - { label: "Footer Box Subtext", name: footerSubtext, widget: "string" }
+          - { label: "Button Text", name: btntext, widget: "string" }
+          - { label: "Button Link", name: btnlink, widget: "string" }
+          - { label: "Image", name: image, widget: "image" }
+      - label: "Standards"
+        name: standards
+        file: site_cms/standards.json
+        fields:
+          - { label: "Title", name: title, widget: "string" }
+          - { label: "Subtitle", name: subtitle, widget: "string" }
+          - label: Box
+            name: box
+            widget: "list"
+            fields:
+              - { label: "Title", name: title, widget: "string" }
+              - { label: "Subtitle", name: subtitle, widget: "string" }
+              - { label: "Icon", name: icon, widget: "string" }
+
+      - label: "Core Competences"
+        name: core_comp
+        file: site_cms/core_comp.json
+        fields:
+          - { label: "Title", name: title, widget: "string" }
+          - { label: "Subtitle", name: subtitle, widget: "string" }
+          - label: Box
+            name: box
+            widget: "list"
+            fields:
+              - { label: "Title", name: title, widget: "string" }
+              - { label: "Subitle", name: subtitle, widget: "string" }
+              - { label: "Icon", name: icon, widget: "string" }
+              - { label: "Bullitin", name: bullitin, widget: "string" }
+              - label: "List"
+                name: list
+                widget: "list"
+                fields:
+                  - { label: "Text", name: text, widget: "string" }
+              - { label: "Button Text", name: btn, widget: "string" }
+              - { label: "Button Link", name: link, widget: "string" }
+      # - label: "Timeline"
+      #   name: timeline
+      #   file: site_cms/timeline.json
+      #   fields:
+      #     - { label: "Title", name: title, widget: "string" }    
+      #     - { label: "Subtitle", name: subtitle, widget: "string" }    
+      #     - { label: "T-1 Title", name: t1title, widget: "string" }    
+      #     - { label: "T-1 Icon", name: t1icon, widget: "string" }    
+      #     - { label: "T-1 Subtitle", name: t1subtitle, widget: "string" }    
+      #     - { label: "T-2 Title", name: t2title, widget: "string" }    
+      #     - { label: "T-2 Icon", name: t2icon, widget: "string" }    
+      #     - { label: "T-2 Subtitle", name: t2subtitle, widget: "string" }    
+      #     - { label: "T-3 Title", name: t3title, widget: "string" }    
+      #     - { label: "T-3 Icon", name: t3ticon, widget: "string" }    
+      #     - { label: "T-3 Subtitle", name: t3subtitle, widget: "string" }    
+      #     - { label: "T-4 Title", name: t4title, widget: "string" }    
+      #     - { label: "T-4 Icon", name: t4icon, widget: "string" }    
+      #     - { label: "T-4 Subtitle", name: t4subtitle, widget: "string" }    
+      #     - { label: "T-5 Title", name: t5title, widget: "string" }    
+      #     - { label: "T-5 Icon", name: t5icon, widget: "string" }    
+      #     - { label: "T-5 Subtitle", name: t5subtitle, widget: "string" }    
+      #     - { label: "T-6 Title", name: t6title, widget: "string" }    
+      #     - { label: "T-6 Icon", name: t6icon, widget: "string" }    
+      #     - { label: "T-6 Subtitle", name: t6subtitle, widget: "string" }    
+      #     - { label: "Footer Title", name: footertitle, widget: "string" }    
+      #     - { label: "Footer Subtitle", name: footersubtitle, widget: "string" }    
+      #     - { label: "Footer Button Text", name: footerbtnText, widget: "string" }    
+      #     - { label: "Footer Button Link", name: footerbtnLink, widget: "string" }    
+      #     - { label: "Footer Copyright", name: footerCopyright, widget: "string" }    
+          - label: "Footer Links"
+            name: footerLinks
+            widget: "list"
+            fields:
+              - { label: "Footer Link", name: footerLink, widget: "string"}
+      - label: "Testimonials"
+        name: testimonials
+        file: site_cms/testimonials.json
+        fields:
+          - label: "List of Testimonials"
+            name: list
+            widget: "list"
+            fields:
+              - {label: "Box 1 Title", name: title1, widget: "string" }
+              - {label: "Box 1 Image Head", name: imageHead1, widget: "image" }
+              - {label: "Box 1 Image Foot", name: imageFoot1, widget: "image" }
+              - {label: "Box 1 Footer Text 1", name: footerTextFirst1, widget: "string" }
+              - {label: "Box 1 Footer Text 2", name: footerTextSecond1, widget: "string" }
+              - {label: "Box 2 Title", name: title2, widget: "string" }
+              - {label: "Box 2 Image Head", name: imageHead2, widget: "image" }
+              - {label: "Box 2 Image Foot", name: imageFoot2, widget: "image" }
+              - {label: "Box 2 Footer Text 1", name: footerTextFirst2, widget: "string" }
+              - {label: "Box 2 Footer Text 2", name: footerTextSecond2, widget: "string" }
+              - {label: "Box 3 Title", name: title3, widget: "string" }
+              - {label: "Box 3 Image Head", name: imageHead3, widget: "image" }
+              - {label: "Box 3 Image Foot", name: imageFoot3, widget: "image" }
+              - {label: "Box 3 Footer Text 1", name: footerTextFirst3, widget: "string" }
+              - {label: "Box 3 Footer Text 2", name: footerTextSecond3, widget: "string" }
+      - label: "Faqs"
+        name: "faqs"
+        file: "site_cms/faqs.json"
+        fields:
+          - label: "List of Faqs"
+            name: list
+            widget: "list"
+            fields:
+              - {label: "Header", name: "header", widget: "string"}        
+              - {label: "Body", name: "body", widget: "string"}        
+
+      - label: "Footer Section"
+        name: footerSection
+        file: "site_cms/footerSection.json"
+        fields:
+          - { label: "Footer Title", name: title, widget: "string" }    
+          - { label: "Footer Subtitle", name: subtitle, widget: "string" }    
+          - { label: "Footer Button Text", name: footerbtnText, widget: "string" }    
+          - { label: "Footer Button Link", name: footerbtnLink, widget: "string" }    
+          - { label: "Footer Copyright", name: footerCopyright, widget: "string" } 
