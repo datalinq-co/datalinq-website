@@ -1,0 +1,12 @@
+{
+  "list": [
+    {
+      "header": "Header 1",
+      "body": "Body 1"
+    },
+    {
+      "header": "Header 2",
+      "body": "Body 2"
+    }
+  ]
+}
